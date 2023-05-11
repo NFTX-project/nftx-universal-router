@@ -24,9 +24,9 @@ contract DeployGoerli is DeployUniversalRouter {
             looksRareRewardsDistributor: UNSUPPORTED_PROTOCOL,
             looksRareToken: UNSUPPORTED_PROTOCOL,
             v2Factory: 0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f,
-            v3Factory: 0x1F98431c8aD98523631AE4a59f267346ea31F984,
+            v3Factory: 0x8206Bf754a12205C52A98d39634393F51F38718f,
             pairInitCodeHash: 0x96e8ac4277198ff8b6f785478aa9a39f403cb768dd02cbee326c3e7da348845f,
-            poolInitCodeHash: 0xe34f199b19b2b4f47f68442619d555527d244f78a3297ea89325f843f87b8b54
+            poolInitCodeHash: 0x25e3ec08b5481ab6736bacbc1babb737902563de379be5263db365452e048cc1
         });
 
         unsupported = 0x5302086A3a25d473aAbBd0356eFf8Dd811a4d89B;

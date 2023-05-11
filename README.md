@@ -181,18 +181,21 @@ forge install
 forge build
 forge test
 ```
+
 ## Integrating
 
 1. Install the latest version of `@uniswap/universal-router` package.
 2. Add git submodules for contracts that aren't a node package. Make sure there's an empty `.gitmodules` file. Then run:
-    ```bash
-      git submodule add https://github.com/transmissions11/solmate
-      git submodule add https://github.com/Uniswap/permit2
-    ```
+   ```bash
+     git submodule add https://github.com/transmissions11/solmate
+     git submodule add https://github.com/Uniswap/permit2
+   ```
 3. You should now be able to import contracts from universal-router and compile.
 
 ## Contributions
+
 Before you submit your PR, run all of the following and commit the changes:
+
 ```bash
 # make sure all tests pass this will also update gas snapshots
 yarn test:all
@@ -202,6 +205,7 @@ yarn prettier:fix
 ```
 
 If you are only concerned with investigating gas diffs, you can run this command to only run gas tests
+
 ```bash
 yarn test:gas
 ```
@@ -209,6 +213,8 @@ yarn test:gas
 ### To Deploy
 
 Fill out parameters in `script/deployParameters/Deploy<network>.s.sol`
+
+Run: `source .env && forge script --broadcast --rpc-url $GOERLI_RPC_URL --private-key $DEPLOYER_PRIVATE_KEY --sig 'run()' ./script/deployParameters/DeployGoerli.s.sol --verify`
 
 ```console
 forge script --broadcast \
