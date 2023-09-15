@@ -1,5 +1,8 @@
 {
   "goerli": {
     "UniversalRouter": "0xF7c4FC5C2e30258e1E4d1197fc63aeDE371508f3"
+  },
+  "sepolia": {
+    "UniversalRouter": "0x12156cCA1958B6591CC49EaE03a5553458a4b424"
   }
 }
