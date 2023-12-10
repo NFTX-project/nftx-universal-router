@@ -1,8 +1,11 @@
 {
-  "goerli": {
-    "UniversalRouter": "0xF7c4FC5C2e30258e1E4d1197fc63aeDE371508f3"
+  "mainnet": {
+    "UniversalRouter": "0x250d62a67254A46c0De472d2c9215E1d890cC90f"
   },
   "sepolia": {
     "UniversalRouter": "0x12156cCA1958B6591CC49EaE03a5553458a4b424"
+  },
+  "goerli": {
+    "UniversalRouter": "0xF7c4FC5C2e30258e1E4d1197fc63aeDE371508f3"
   }
 }

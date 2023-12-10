@@ -214,7 +214,7 @@ yarn test:gas
 
 Fill out parameters in `script/deployParameters/Deploy<network>.s.sol`
 
-Run: `source .env && forge script --broadcast --rpc-url $GOERLI_RPC_URL --private-key $DEPLOYER_PRIVATE_KEY --sig 'run()' ./script/deployParameters/DeployGoerli.s.sol --verify`
+Run: `source .env && forge script --broadcast --rpc-url $GOERLI_RPC_URL --private-key $DEPLOYER_PRIVATE_KEY --sig 'run()' ./script/deployParameters/DeployGoerli.s.sol --verify --etherscan-api-key $ETHERSCAN_API_KEY`
 
 ```console
 forge script --broadcast \

@@ -23,10 +23,10 @@ contract DeployMainnet is DeployUniversalRouter {
             routerRewardsDistributor: 0xea37093ce161f090e443f304e1bF3a8f14D7bb40,
             looksRareRewardsDistributor: 0x0554f068365eD43dcC98dcd7Fd7A8208a5638C72,
             looksRareToken: 0xf4d2888d29D722226FafA5d9B24F9164c092421E,
-            v2Factory: 0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f,
-            v3Factory: 0x1F98431c8aD98523631AE4a59f267346ea31F984,
-            pairInitCodeHash: 0x96e8ac4277198ff8b6f785478aa9a39f403cb768dd02cbee326c3e7da348845f,
-            poolInitCodeHash: 0xe34f199b19b2b4f47f68442619d555527d244f78a3297ea89325f843f87b8b54
+            v2Factory: 0xC0AEe478e3658e2610c5F7A4A2E1777cE9e4f2Ac, // Sushiswap Factory
+            v3Factory: 0xa70e10beB02fF9a44007D9D3695d4b96003db101, // NFTX V3 AMM Factory
+            pairInitCodeHash: 0xe18a34eb0e04b04f7a0ac29a6e80748dca96319b42c54d679cb821dca90c6303, // for sushiswap
+            poolInitCodeHash: 0x7700ec83d0dc69c0a1e228138168ca93778a8d2f0fe9a0afb44901e1d5142d48 // NFTX V3 AMM
         });
 
         unsupported = 0x76D631990d505E4e5b432EEDB852A60897824D68;
