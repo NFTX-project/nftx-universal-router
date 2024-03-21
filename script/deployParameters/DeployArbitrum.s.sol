@@ -24,7 +24,7 @@ contract DeployArbitrum is DeployUniversalRouter {
             looksRareRewardsDistributor: UNSUPPORTED_PROTOCOL,
             looksRareToken: UNSUPPORTED_PROTOCOL,
             v2Factory: 0xc35DADB65012eC5796536bD9864eD8773aBc74C4, // Sushiswap Factory
-            v3Factory: 0x1F98431c8aD98523631AE4a59f267346ea31F984, // NFTX V3 AMM Factory
+            v3Factory: 0xF4D0512FB47319B0CE9144EF582862e2921CaBF8, // NFTX V3 AMM Factory
             pairInitCodeHash: 0xe18a34eb0e04b04f7a0ac29a6e80748dca96319b42c54d679cb821dca90c6303, // for sushiswap
             poolInitCodeHash: 0x7700ec83d0dc69c0a1e228138168ca93778a8d2f0fe9a0afb44901e1d5142d48 // NFTX V3 AMM
         });
